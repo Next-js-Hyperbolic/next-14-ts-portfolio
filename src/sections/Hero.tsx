@@ -2,18 +2,62 @@ import Image from 'next/image';
 import memojiImage from '../assets/images/memoji-computer.png';
 import ArrowDown from '../assets/icons/arrow-down.svg';
 import GrainImage from '../assets/images/grain.jpg';
+import StarIcon from '../assets/icons/star.svg';
+import SparkleIcon from '../assets/icons/sparkle.svg';
+import { HeroOrbit } from '../components/HeroOrbit';
 
 export const HeroSection = () => {
   return (
-    <div className='py-32 md:py-40 lg:py-60 relative z-0 overflow-x-clip'>
-      <div
-        className='absolute inset-0 -z-30 opacity-5'
-        style={{ backgroundImage: `url(${GrainImage.src})` }}
-      ></div>
-      <div className='hero-ring'></div>
-      <div className='hero-ring size-[820px]'></div>
-      <div className='hero-ring size-[1020px]'></div>
-      <div className='hero-ring size-[1220px]'></div>
+    <div className='py-20 md:py-40 lg:py-60 relative z-0 overflow-x-clip'>
+      {/* FADE IN/OUT TOP & BOTTOM EDGES */}
+      <div className='absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]'>
+        {/* BG IMAGE */}
+        <div
+          className='absolute inset-0 -z-30 opacity-5'
+          style={{ backgroundImage: `url(${GrainImage.src})` }}
+        ></div>
+
+        {/* RINGS */}
+        <div className='hero-ring'></div>
+        <div className='hero-ring size-[850px]'></div>
+        <div className='hero-ring size-[1040px]'></div>
+        <div className='hero-ring size-[1220px]'></div>
+
+        {/* STAR SVG */}
+        <HeroOrbit orbitPxSize={800} rotationDeg={-72}>
+          <StarIcon className='size-28 text-emerald-300' />
+        </HeroOrbit>
+        <HeroOrbit orbitPxSize={550} rotationDeg={20}>
+          <StarIcon className='size-12 text-emerald-300' />
+        </HeroOrbit>
+        <HeroOrbit orbitPxSize={590} rotationDeg={98}>
+          <StarIcon className='size-8 text-emerald-300' />
+        </HeroOrbit>
+        {/* SPARKLE SVG */}
+        <HeroOrbit orbitPxSize={430} rotationDeg={-14}>
+          <SparkleIcon className='size-8 text-emerald-300/20' />
+        </HeroOrbit>
+        <HeroOrbit orbitPxSize={440} rotationDeg={78}>
+          <SparkleIcon className='size-5 text-emerald-300/20' />
+        </HeroOrbit>
+        <HeroOrbit orbitPxSize={530} rotationDeg={178}>
+          <SparkleIcon className='size-10 text-emerald-300/20' />
+        </HeroOrbit>
+        <HeroOrbit orbitPxSize={710} rotationDeg={144}>
+          <SparkleIcon className='size-14 text-emerald-300/20' />
+        </HeroOrbit>
+        {/* CIRCLE CSS */}
+        <HeroOrbit orbitPxSize={720} rotationDeg={85}>
+          <div className='size-3 bg-emerald-300/20 rounded-full'></div>
+        </HeroOrbit>
+        <HeroOrbit orbitPxSize={520} rotationDeg={-42}>
+          <div className='size-2 bg-emerald-300/20 rounded-full'></div>
+        </HeroOrbit>
+        <HeroOrbit orbitPxSize={650} rotationDeg={-5}>
+          <div className='size-2 bg-emerald-300/20 rounded-full'></div>
+        </HeroOrbit>
+      </div>
+
       <div className='container'>
         <div className='flex flex-col items-center'>
           <Image
@@ -31,14 +75,16 @@ export const HeroSection = () => {
 
         <div className='max-w-lg mx-auto'>
           <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>
-            Building Exceptional User Experiences.
+            Industry Leading
+            <p className='text-2xl md:text-3xl my-3 text-emerald-300'>
+              Web & Software{' '}
+            </p>
+            Development
           </h1>
           <p className='mt-6 text-center text-white/60 md:text-lg'>
-            I speciailize in building:{' '}
-            <p className='italic font-bold my-2 tracking-wide'>
-              🌹 Elegant 🔪 Cutting-Edge 🪜 Scalable
-            </p>
-            software that focuses on user experience and long-term reliability.
+            I speciailize in building <span className='font-bold'>elegant</span>{' '}
+            and <span className='font-bold'>scalable</span> software that
+            focuses on user experience and long-term reliability.
           </p>
         </div>
 
