@@ -25,7 +25,16 @@ const config: Config = {
       fontFamily: {
         sans: 'var(--font-sans)',
         serif: 'var(--font-serif)'
-      }
+      },
+      keyframes: {
+        pulseGlow: {
+          '0%, 100%': { boxShadow: '0 0 20px 5px rgba(34,197,94,0.4)' },
+          '50%': { boxShadow: '0 0 25px 10px rgba(34,197,94,0.7)' },
+        },
+      },
+      animation: {
+        'pulse-custom': 'pulseGlow 1.5s infinite',
+      },
     },
   },
   plugins: [],

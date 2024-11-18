@@ -10,7 +10,7 @@ export const HeroSection = () => {
   return (
     <div className='py-20 md:py-40 lg:py-60 relative z-0 overflow-x-clip'>
       {/* FADE IN/OUT TOP & BOTTOM EDGES */}
-      <div className='absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]'>
+      <div className='overflow-y-clip absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]'>
         {/* BG IMAGE */}
         <div
           className='absolute inset-0 -z-30 opacity-5'
@@ -66,7 +66,7 @@ export const HeroSection = () => {
             alt='Memoji peeking from behind laptop'
           />
           <div className='bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg'>
-            <div className='bg-green-500 size-2.5 rounded-full'></div>
+            <div className='bg-green-500 w-2.5 h-2.5 rounded-full shadow-[0_0_20px_5px_rgba(34,197,94,0.4)] animate-pulse-custom'></div>
             <div className='text-sm font-medium'>
               Available for new projects.
             </div>
