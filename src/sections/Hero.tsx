@@ -74,9 +74,9 @@ export const HeroSection = () => {
         </div>
 
         <div className='max-w-lg mx-auto'>
-          <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>
+          <h1 className='font-serif text-2xl md:text-4xl text-center mt-8 tracking-wide'>
             Industry Leading
-            <p className='text-2xl md:text-3xl my-3 text-emerald-300'>
+            <p className='text-3xl md:text-5xl my-3 text-emerald-300'>
               Web & Software{' '}
             </p>
             Development
