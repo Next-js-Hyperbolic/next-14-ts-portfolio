@@ -8,7 +8,7 @@ import { HeroOrbit } from '../components/HeroOrbit';
 
 export const HeroSection = () => {
   return (
-    <div className='py-20 md:py-40 lg:py-60 relative z-0 overflow-x-clip'>
+    <div className='py-16 md:py-40 lg:py-60 relative z-0 overflow-x-clip'>
       {/* FADE IN/OUT TOP & BOTTOM EDGES */}
       <div className='overflow-y-clip absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]'>
         {/* BG IMAGE */}
@@ -76,15 +76,19 @@ export const HeroSection = () => {
         <div className='max-w-lg mx-auto'>
           <h1 className='font-serif text-2xl md:text-4xl text-center mt-8 tracking-wide'>
             Industry Leading
-            <p className='text-3xl md:text-4xl my-3 text-emerald-300'>
-              Web & Software{' '}
+            {/* <p className='text-3xl md:text-4xl my-3 text-emerald-300'>
+              Web, Mobile & Software{' '}
+            </p> */}
+            <p className='text-3xl my-3 text-emerald-300'>
+              🌐Web 📱Mobile & 🖥️Software{' '}
             </p>
             Development
           </h1>
           <p className='mt-6 text-center text-white/60 md:text-lg'>
-            I speciailize in building <span className='font-bold'>elegant</span>{' '}
-            and <span className='font-bold'>scalable</span> software that
-            focuses on user experience and long-term reliability.
+            My passion building <span className='font-bold'>elegant</span> and{' '}
+            <span className='font-bold'>scalable</span> full-stack software for
+            web, mobile, and desktops, focusing on user experience and long-term
+            reliability.
           </p>
         </div>
 
