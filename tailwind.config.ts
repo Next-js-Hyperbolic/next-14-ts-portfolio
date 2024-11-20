@@ -1,3 +1,4 @@
+import { transform } from "next/dist/build/swc";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -31,9 +32,18 @@ const config: Config = {
           '0%, 100%': { boxShadow: '0 0 20px 5px rgba(34,197,94,0.4)' },
           '50%': { boxShadow: '0 0 25px 10px rgba(34,197,94,0.7)' },
         },
+        moveLeft: {
+          '0%': {
+            transform: 'translateX(0%)'
+          },
+          '100%': {
+            transform: 'translateX(-50%)'
+          }
+        }
       },
       animation: {
         'pulse-custom': 'pulseGlow 1.5s infinite',
+        'move-left': 'moveLeft 1s linear infinite'
       },
     },
   },
