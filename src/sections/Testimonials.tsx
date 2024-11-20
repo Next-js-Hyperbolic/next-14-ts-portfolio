@@ -20,19 +20,19 @@ const testimonials = [
   {
     name: 'Meryam Alaoui',
     position: 'Vice President @ American Express',
-    text: "Karsen is one of the best communicators I've had the pleasure of working with, let alone his ability to create stunning web applications.",
+    text: "Karsen is one of the best communicators I've had the pleasure of working with, let alone his ability to create stunning web applications. I always look forward to our next project together.",
     avatar: memojiAvatar4,
   },
   {
     name: 'H. Martin Westfall',
     position: 'Senior Managing Partner @ Coopers & Lybrand',
-    text: "Karsen's has a great eye for detail along with an uncanny ability to bring our ideas to life in a meaningful way.",
+    text: 'Karsen has a great eye for detail along with an uncanny ability to bring our ideas to life in a meaningful way. He is also one of the hardest and smartest workers which makes him very efficient.',
     avatar: memojiAvatar1,
   },
   {
     name: 'Jonathan Robins',
     position: 'Chief Technology Officer @ Intellicheck',
-    text: 'Working with Karsen was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has gone above and beyond our expectations.',
+    text: 'Working with Karsen was a pleasure. His expertise in front-end and back-end development along with an unparalleled work ethic allowed him to rebuild our entire product in a modern tech-stack a lot quicker than we expected.',
     avatar: memojiAvatar2,
   },
   {
@@ -43,8 +43,8 @@ const testimonials = [
   },
   {
     name: 'Brandy Garland',
-    position: 'Project Manager @ Intellicheck',
-    text: "Karsen's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
+    position: 'Product Manager @ Intellicheck',
+    text: "Karsen's work on our front and back-end systems has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
     avatar: memojiAvatar4,
   },
 ];
