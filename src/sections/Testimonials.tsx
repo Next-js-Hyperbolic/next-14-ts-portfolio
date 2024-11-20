@@ -13,40 +13,46 @@ import { Fragment } from 'react';
 const testimonials = [
   {
     name: 'Kevin Westfall',
-    position: 'Founder & CEO @ Vroom',
+    position: 'Founder & Board Member @ Vroom',
     text: 'Karsen was instrumental to our success in the early days of Vroom (previously AutoAmerica). We relied heavily on our web presence which Karsen delivered in a timely manner while exceeding our expectations.',
     avatar: memojiAvatar1,
   },
   {
     name: 'Meryam Alaoui',
-    position: 'Vice President @ American Express',
+    position: 'Former Vice President @ American Express',
     text: "Karsen is one of the best communicators I've had the pleasure of working with, let alone his ability to create stunning web applications. I always look forward to our next project together.",
     avatar: memojiAvatar4,
   },
   {
     name: 'H. Martin Westfall',
     position: 'Senior Managing Partner @ Coopers & Lybrand',
-    text: 'Karsen has a great eye for detail along with an uncanny ability to bring our ideas to life in a meaningful way. He is also one of the hardest and smartest workers which makes him very efficient.',
-    avatar: memojiAvatar1,
-  },
-  {
-    name: 'Jonathan Robins',
-    position: 'Chief Technology Officer @ Intellicheck',
-    text: 'Working with Karsen was a pleasure. His expertise in front-end and back-end development along with an unparalleled work ethic allowed him to rebuild our entire product in a modern tech-stack a lot quicker than we expected.',
-    avatar: memojiAvatar2,
-  },
-  {
-    name: 'Sean Kaim',
-    position: 'Director of Engineering @ Intellicheck',
-    text: 'Karsen is always a pleasure to work with being as driven and capable as he is. He also has quite the obsession with keyboards.',
+    text: 'Karsen has a great eye for detail along with an uncanny ability to bring ideas to life in a meaningful way.',
     avatar: memojiAvatar3,
   },
   {
-    name: 'Brandy Garland',
-    position: 'Product Manager @ Intellicheck',
-    text: "Karsen's work on our front and back-end systems has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
-    avatar: memojiAvatar4,
+    name: 'Donald B. Lee',
+    position: 'System Engineer @ Boeing',
+    text: 'Karsen works very well with others; from communicating to delegating, his process always results in something amazing and reliable.',
+    avatar: memojiAvatar1,
   },
+  // {
+  //   name: 'Jonathan Robins',
+  //   position: 'Chief Technology Officer @ Intellicheck',
+  //   text: 'Working with Karsen was a pleasure. His expertise in front-end and back-end development along with an unparalleled work ethic allowed him to rebuild our entire product in a modern tech-stack a lot quicker than we expected.',
+  //   avatar: memojiAvatar2,
+  // },
+  // {
+  //   name: 'Sean Kaim',
+  //   position: 'Director of Engineering @ Intellicheck',
+  //   text: 'Karsen is always a pleasure to work with being as driven and capable as he is. He also has quite the obsession with keyboards.',
+  //   avatar: memojiAvatar3,
+  // },
+  // {
+  //   name: 'Brandy Garland',
+  //   position: 'Product Manager @ Intellicheck',
+  //   text: "Karsen's work on our front and back-end systems has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
+  //   avatar: memojiAvatar4,
+  // },
 ];
 
 export const TestimonialsSection = () => {
