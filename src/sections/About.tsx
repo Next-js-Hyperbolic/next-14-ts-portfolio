@@ -15,6 +15,7 @@ import AwsIcon from '../assets/icons/aws.svg';
 import MongodbIcon from '../assets/icons/mongodb.svg';
 import TailwindIcon from '../assets/icons/tailwind.svg';
 import ElasticIcon from '../assets/icons/elasticsearch.svg';
+import CloudflareIcon from '../assets/icons/cloudflare.svg';
 import MapImage from '../assets/images/map.png';
 import SmileMemoji from '../assets/images/memoji-smile.png';
 import { CardHeader } from '../components/CardHeader';
@@ -71,6 +72,10 @@ const toolboxItems = [
   {
     title: 'GitHub',
     iconType: GithubIcon,
+  },
+  {
+    title: 'CloudFlare',
+    iconType: CloudflareIcon,
   },
 ];
 
