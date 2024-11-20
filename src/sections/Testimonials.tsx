@@ -66,7 +66,7 @@ export const TestimonialsSection = () => {
         <SectionHeader
           eyebrow='Happy Clients & Colleagues'
           title='What Folks Say About Me'
-          description="Don't just take my word for it. See what my clients and colleagues say about my work"
+          description="Don't just take my word for it. See what my clients and colleagues say about my work."
         />
 
         <div className='mt-16 lg:mt-24 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]'>
@@ -74,7 +74,7 @@ export const TestimonialsSection = () => {
             {testimonials.map(testimonial => (
               <Card
                 key={testimonial.name}
-                className='max-w-xs md:p-8 md:max-w-md'
+                className='max-w-xs p-6 md:p-8 md:max-w-md'
               >
                 <div className='flex gap-4 items-center'>
                   <div className='size-14 bg-gray-700 inline-flex rounded-full items-center justify-center flex-shrink-0'>
