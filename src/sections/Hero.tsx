@@ -10,7 +10,7 @@ export const HeroSection = () => {
   return (
     <div className='py-16 md:py-40 lg:py-60 relative z-0 overflow-x-clip'>
       {/* FADE IN/OUT TOP & BOTTOM EDGES */}
-      <div className='overflow-y-clip absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]'>
+      <div className='pointer-events-none overflow-y-clip absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]'>
         {/* BG IMAGE */}
         <div
           className='absolute inset-0 -z-30 opacity-5'
@@ -87,22 +87,27 @@ export const HeroSection = () => {
             Development
           </h1>
           <p className='mt-6 text-center text-white/60 md:text-lg'>
-            My passion is building <span className='font-bold'>elegant</span>{' '}
-            and <span className='font-bold'>scalable</span> full-stack software
-            for web, mobile, and desktops, focusing on user experience and
-            long-term reliability.
+            My name is <span className='italic'>Karsen Hansen</span>. <br />
+            My passion is building <span className='font-bold'>
+              elegant
+            </span> & <span className='font-bold'>scalable</span> software for
+            web, mobile, and desktops with a focus on amazing user experiences.
           </p>
         </div>
 
         <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>
-          <button className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl'>
-            <span className='font-semibold'>Explore My Work</span>
-            <ArrowDown className='size-4' />
-          </button>
-          <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl'>
-            <span>👋</span>
-            <span className='font-semibold'>Let&apos;s Connect</span>
-          </button>
+          <a href='#projects'>
+            <button className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl'>
+              <span className='font-semibold'>Explore My Work</span>
+              <ArrowDown className='size-4' />
+            </button>
+          </a>
+          <a href='#contact'>
+            <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl'>
+              <span>👋</span>
+              <span className='font-semibold'>Let&apos;s Connect</span>
+            </button>
+          </a>
         </div>
       </div>
     </div>
