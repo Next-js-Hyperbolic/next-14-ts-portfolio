@@ -14,50 +14,38 @@ const testimonials = [
   {
     name: 'Kevin Westfall',
     position: 'Founder & CEO @ Vroom',
-    text: "Karsen was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
-    avatar: memojiAvatar1,
-  },
-  {
-    name: 'H. Martin Westfall',
-    position: 'Senior Managing Partner @ Coopers & Lybrand',
-    text: "Karsen was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+    text: 'Karsen was instrumental to our success in the early days of Vroom (previously AutoAmerica). We relied heavily on our web presence which Karsen delivered in a timely manner while exceeding our expectations.',
     avatar: memojiAvatar1,
   },
   {
     name: 'Meryam Alaoui',
     position: 'Vice President @ American Express',
-    text: "Karsen was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+    text: "Karsen is one of the best communicators I've had the pleasure of working with, let alone his ability to create stunning web applications.",
+    avatar: memojiAvatar4,
+  },
+  {
+    name: 'H. Martin Westfall',
+    position: 'Senior Managing Partner @ Coopers & Lybrand',
+    text: "Karsen's has a great eye for detail along with an uncanny ability to bring our ideas to life in a meaningful way.",
     avatar: memojiAvatar1,
   },
   {
     name: 'Jonathan Robins',
     position: 'Chief Technology Officer @ Intellicheck',
-    text: 'Working with Karsen was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.',
+    text: 'Working with Karsen was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has gone above and beyond our expectations.',
     avatar: memojiAvatar2,
   },
   {
     name: 'Sean Kaim',
     position: 'Director of Engineering @ Intellicheck',
-    text: "Karsen's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+    text: 'Karsen is always a pleasure to work with being as driven and capable as he is. He also has quite the obsession with keyboards.',
     avatar: memojiAvatar3,
-  },
-  {
-    name: 'Gina Sprint',
-    position: 'Associate Professor @ Gonzaga University',
-    text: "Karsen is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
-    avatar: memojiAvatar4,
   },
   {
     name: 'Brandy Garland',
     position: 'Project Manager @ Intellicheck',
     text: "Karsen's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
-    avatar: memojiAvatar5,
-  },
-  {
-    name: 'Janis DeMarco',
-    position: 'Major Accounts Manager @ Rubrik Cyber Security',
-    text: "Karsen's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
-    avatar: memojiAvatar5,
+    avatar: memojiAvatar4,
   },
 ];
 

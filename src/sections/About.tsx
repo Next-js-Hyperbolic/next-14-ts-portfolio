@@ -3,12 +3,18 @@ import { Card } from '../components/Card';
 import { SectionHeader } from '../components/SectionHeader';
 import BookImage from '../assets/images/book-cover.png';
 import Image from 'next/image';
+import PythonIcon from '../assets/icons/python.svg';
 import JavaScriptIcon from '../assets/icons/square-js.svg';
 import HtmlIcon from '../assets/icons/html5.svg';
 import CssIcon from '../assets/icons/css3.svg';
 import ReactIcon from '../assets/icons/react.svg';
 import ChromeIcon from '../assets/icons/chrome.svg';
 import GithubIcon from '../assets/icons/github.svg';
+import NextjsIcon from '../assets/icons/nextjs.svg';
+import AwsIcon from '../assets/icons/aws.svg';
+import MongodbIcon from '../assets/icons/mongodb.svg';
+import TailwindIcon from '../assets/icons/tailwind.svg';
+import ElasticIcon from '../assets/icons/elasticsearch.svg';
 import MapImage from '../assets/images/map.png';
 import SmileMemoji from '../assets/images/memoji-smile.png';
 import { CardHeader } from '../components/CardHeader';
@@ -18,6 +24,10 @@ import { useRef } from 'react';
 
 // TODO: Move this data to Postgres
 const toolboxItems = [
+  {
+    title: 'Python',
+    iconType: PythonIcon,
+  },
   {
     title: 'JavaScript',
     iconType: JavaScriptIcon,
@@ -33,6 +43,26 @@ const toolboxItems = [
   {
     title: 'React',
     iconType: ReactIcon,
+  },
+  {
+    title: 'NextJs',
+    iconType: NextjsIcon,
+  },
+  {
+    title: 'AWS',
+    iconType: AwsIcon,
+  },
+  {
+    title: 'MongoDB',
+    iconType: MongodbIcon,
+  },
+  {
+    title: 'Tailwind',
+    iconType: TailwindIcon,
+  },
+  {
+    title: 'Elastic',
+    iconType: ElasticIcon,
   },
   {
     title: 'Chrome',
@@ -82,7 +112,7 @@ const hobbies = [
     top: '65%',
   },
   {
-    title: 'Reading',
+    title: 'Audio Books',
     emoji: '📚',
     left: '45%',
     top: '70%',
@@ -106,7 +136,7 @@ export const AboutSection = () => {
               <Card className='h-[320px] md:col-span-2 lg:col-span-1'>
                 <CardHeader
                   title='My Reads'
-                  description='Explore the literature shaping my perspectives.'
+                  description='Explore the literature currently shaping my perspectives.'
                 />
                 <div className='w-40 mx-auto mt-2 md:mt-0'>
                   <Image src={BookImage} alt='Book cover' />
