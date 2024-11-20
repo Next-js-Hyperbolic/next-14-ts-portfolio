@@ -24,36 +24,38 @@ export const HeroSection = () => {
         <div className='hero-ring size-[1220px]'></div>
 
         {/* STAR SVG */}
-        <HeroOrbit orbitPxSize={800} rotationDeg={-72}>
+        <HeroOrbit animationSeconds='14s' orbitPxSize={800} rotationDeg={-72}>
           <StarIcon className='size-28 text-emerald-300' />
         </HeroOrbit>
-        <HeroOrbit orbitPxSize={550} rotationDeg={20}>
+        <HeroOrbit animationSeconds='25s' orbitPxSize={550} rotationDeg={20}>
           <StarIcon className='size-12 text-emerald-300' />
         </HeroOrbit>
-        <HeroOrbit orbitPxSize={590} rotationDeg={98}>
+        <HeroOrbit animationSeconds='17s' orbitPxSize={590} rotationDeg={98}>
           <StarIcon className='size-8 text-emerald-300' />
         </HeroOrbit>
+
         {/* SPARKLE SVG */}
-        <HeroOrbit orbitPxSize={430} rotationDeg={-14}>
+        <HeroOrbit animationSeconds='22s' orbitPxSize={430} rotationDeg={-14}>
           <SparkleIcon className='size-8 text-emerald-300/20' />
         </HeroOrbit>
-        <HeroOrbit orbitPxSize={440} rotationDeg={78}>
+        <HeroOrbit animationSeconds='16s' orbitPxSize={440} rotationDeg={78}>
           <SparkleIcon className='size-5 text-emerald-300/20' />
         </HeroOrbit>
-        <HeroOrbit orbitPxSize={530} rotationDeg={178}>
+        <HeroOrbit animationSeconds='14s' orbitPxSize={530} rotationDeg={178}>
           <SparkleIcon className='size-10 text-emerald-300/20' />
         </HeroOrbit>
-        <HeroOrbit orbitPxSize={710} rotationDeg={144}>
+        <HeroOrbit animationSeconds='12s' orbitPxSize={710} rotationDeg={144}>
           <SparkleIcon className='size-14 text-emerald-300/20' />
         </HeroOrbit>
+
         {/* CIRCLE CSS */}
-        <HeroOrbit orbitPxSize={720} rotationDeg={85}>
+        <HeroOrbit animationSeconds='25s' orbitPxSize={720} rotationDeg={85}>
           <div className='size-3 bg-emerald-300/20 rounded-full'></div>
         </HeroOrbit>
-        <HeroOrbit orbitPxSize={520} rotationDeg={-42}>
+        <HeroOrbit animationSeconds='10s' orbitPxSize={520} rotationDeg={-42}>
           <div className='size-2 bg-emerald-300/20 rounded-full'></div>
         </HeroOrbit>
-        <HeroOrbit orbitPxSize={650} rotationDeg={-5}>
+        <HeroOrbit animationSeconds='15s' orbitPxSize={650} rotationDeg={-5}>
           <div className='size-2 bg-emerald-300/20 rounded-full'></div>
         </HeroOrbit>
       </div>
@@ -85,10 +87,10 @@ export const HeroSection = () => {
             Development
           </h1>
           <p className='mt-6 text-center text-white/60 md:text-lg'>
-            My passion building <span className='font-bold'>elegant</span> and{' '}
-            <span className='font-bold'>scalable</span> full-stack software for
-            web, mobile, and desktops, focusing on user experience and long-term
-            reliability.
+            My passion is building <span className='font-bold'>elegant</span>{' '}
+            and <span className='font-bold'>scalable</span> full-stack software
+            for web, mobile, and desktops, focusing on user experience and
+            long-term reliability.
           </p>
         </div>
 
