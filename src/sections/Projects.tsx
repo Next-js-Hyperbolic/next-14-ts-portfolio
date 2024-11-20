@@ -8,7 +8,20 @@ import Image from 'next/image';
 import { SectionHeader } from '../components/SectionHeader';
 import { Card } from '../components/Card';
 
+// TODO: Replace images with actual site images or AI generated image
 const portfolioProjects = [
+  {
+    company: 'SpotLease',
+    year: '2023',
+    title: 'Spare Space Leasing Platform',
+    results: [
+      { title: 'Full-stack React Native | Node | AWS ' },
+      { title: 'Stripe Connect payment services' },
+      { title: 'In-app instant messaging' },
+    ],
+    link: 'https://spot.lease/',
+    image: aiStartupLandingPage,
+  },
   {
     company: 'Intellicheck',
     year: '2022',
@@ -41,18 +54,6 @@ const portfolioProjects = [
     link: 'https://www.dragonpybot.com/',
     image: lightSaasLandingPage,
   },
-  {
-    company: 'SpotLease',
-    year: '2023',
-    title: 'Spare Space Leasing Platform',
-    results: [
-      { title: 'Enhanced user experience by 40%' },
-      { title: 'Improved site speed by 50%' },
-      { title: 'Increased mobile traffic by 35%' },
-    ],
-    link: 'https://spot.lease/',
-    image: aiStartupLandingPage,
-  },
 ];
 
 export const ProjectsSection = () => {
@@ -67,11 +68,12 @@ export const ProjectsSection = () => {
 
         {/* PROJECT CARDS */}
         <div className='flex flex-col mt-10 gap-20 md:mt-20'>
-          {portfolioProjects.map(project => (
+          {portfolioProjects.map((project, idx) => (
             // CARD
             <Card
               key={project.title}
-              className=' px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20'
+              className=' px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky'
+              style={{ top: `calc(64px + ${idx * 40}px` }}
             >
               <div
                 className='absolute inset-0 -z-10 opacity-5'
