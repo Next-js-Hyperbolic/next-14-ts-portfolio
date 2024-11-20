@@ -39,11 +39,20 @@ const config: Config = {
           '100%': {
             transform: 'translateX(-50%)'
           }
+        },
+        moveRight: {
+          '0%': {
+            transform: 'translate(-50%)'
+          },
+          '100%': {
+            transform: 'translate(0%)'
+          }
         }
       },
       animation: {
         'pulse-custom': 'pulseGlow 1.5s infinite',
-        'move-left': 'moveLeft 1s linear infinite'
+        'move-left': 'moveLeft 1s linear infinite',
+        'move-right': 'moveRight 1s linear infinite',
       },
     },
   },
