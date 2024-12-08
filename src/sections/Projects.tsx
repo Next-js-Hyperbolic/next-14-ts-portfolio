@@ -1,6 +1,7 @@
-import darkSaasLandingPage from '../assets/images/dark-saas-landing-page.png';
-import lightSaasLandingPage from '../assets/images/light-saas-landing-page.png';
-import aiStartupLandingPage from '../assets/images/ai-startup-landing-page.png';
+import darkSaasLandingPage from '../assets/images/intellicheck-landing-page.png';
+import lightSaasLandingPage from '../assets/images/dragonpybot-landing-page.png';
+import aiStartupLandingPage from '../assets/images/spotlease-landing-page.png';
+import ycDirectoryLandingPage from '../assets/images/ycdirectory-landing-page.png';
 import CheckIcon from '../assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '../assets/icons/arrow-up-right.svg';
 import GrainImage from '../assets/images/grain.jpg';
@@ -8,12 +9,24 @@ import Image from 'next/image';
 import { SectionHeader } from '../components/SectionHeader';
 import { Card } from '../components/Card';
 
-// TODO: Replace images with actual site images or AI generated image
 const portfolioProjects = [
   {
+    company: 'YC Directory',
+    year: '2024',
+    title: 'NextJS 15 | Idea Pitching App',
+    results: [
+      { title: 'Full-stack NextJS | NextAuth | Sanity ' },
+      { title: 'Sentry error monitoring' },
+      { title: 'Parallel & Sequential Requests' },
+      { title: 'Sanity CDN' },
+    ],
+    link: 'https://ys-directory-nextjs-8i64i0ilb-karsenhs-projects.vercel.app/',
+    image: ycDirectoryLandingPage,
+  },
+  {
     company: 'SpotLease',
-    year: '2023',
-    title: 'Space Leasing Platform',
+    year: '2024',
+    title: 'React Native | Space Leasing App',
     results: [
       { title: 'Full-stack React-Native | Node | AWS ' },
       { title: 'Stripe Connect payment services' },
@@ -26,8 +39,8 @@ const portfolioProjects = [
   },
   {
     company: 'Intellicheck',
-    year: '2022',
-    title: 'Mobile Browser ID Validation',
+    year: '2022-2023',
+    title: 'React | Web Identity Validation',
     results: [
       { title: 'Full-stack React | Node | AWS' },
       { title: 'Integrated with mobile hardware (cameras)' },
@@ -42,7 +55,7 @@ const portfolioProjects = [
   {
     company: 'DragonPy Bot',
     year: '2021',
-    title: 'OSRS Mobile (game) Automation',
+    title: 'Python | Video Game Bot + Desktop GUI',
     results: [
       { title: 'Python Desktop App' },
       { title: 'Full-stack web React | Node | Stripe | AWS' },
