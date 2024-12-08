@@ -9,6 +9,8 @@ import Image from 'next/image';
 import { SectionHeader } from '../components/SectionHeader';
 import { Card } from '../components/Card';
 
+// Macbook images generated from: https://mediamodifier.com/mockup/macbook-laptop-front-view-mockup-generator/968
+
 const portfolioProjects = [
   {
     company: 'YC Directory',
