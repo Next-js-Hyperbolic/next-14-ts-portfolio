@@ -82,7 +82,7 @@ export const HeroSection = () => {
               Web, Mobile & Software{' '}
             </p> */}
             <p className='text-xl md:text-3xl lg:text-4xl my-3 text-emerald-300 '>
-              🌐Web 📱Mobile & 🖥️Software{' '}
+              🌐 Web 📱 Mobile & 🖥️ Software{' '}
             </p>
             Development
           </h1>
